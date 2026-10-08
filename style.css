@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f5f5f5;
+    color: #222;
+}
+
+
+/* =========================
+   HEADER
+   ========================= */
+
+.site-header {
+    width: 100%;
+    background-color: #333;
+    color: white;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+
+/* =========================
+   NAVIGATION
+   ========================= */
+
+.site-nav {
+    width: 100%;
+    background-color: #222;
+}
+
+.site-nav .nav-link {
+    color: white;
+}
+
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus {
+    background-color: #444;
+    color: white;
+}
+
+
+/* =========================
+   MAIN
+   ========================= */
+
+main {
+    background-color: white;
+    min-height: 500px;
+}
+
+
+/* =========================
+   LINKS
+   ========================= */
+
+#links img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-link {
+    width: 600px;
+    max-width: 100%;
+}
+
+.image-map {
+    width: 600px;
+    max-width: 100%;
+}
+
+
+/* =========================
+   TABLE
+   ========================= */
+
+.table-responsive {
+    width: 100%;
+}
+
+
+/* =========================
+   FORM
+   ========================= */
+
+form {
+    width: 100%;
+}
+
+form .form-control,
+form .form-select {
+    max-width: 600px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+fieldset {
+    max-width: 600px;
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+.site-footer {
+    width: 100%;
+    background-color: #333;
+    color: white;
+}
+
+
+/* =========================
+   TABLET / DESKTOP
+   ========================= */
+
+@media (min-width: 768px) {
+
+    .logo {
+        width: 90px;
+        height: 90px;
+    }
+
+    .site-header h1 {
+        font-size: 26px;
+    }
+
+    .site-nav .nav-link {
+        padding: 15px 25px;
+    }
+
+    main {
+        min-height: 600px;
+    }
+
+}
